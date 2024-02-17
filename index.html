@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <a href="#">Library System</a>
+        <a href="#books">Books</a>
+        <a href="#register">Register</a>
+    </nav>
+
+    <!-- Table of Books -->
+    <section id="books">
+        <h2>Table of Books</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Book ID</th>
+                    <th>Title</th>
+                    <th>Author</th>
+                    <th>Genre</th>
+                    <th>Availability</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Populate with at least 5 rows of data -->
+                <tr>
+                    <td>1</td>
+                    <td><b>To Kill a Mockingbird</b>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date: 11/07/1960</td>
+                                <!-- <td>01/01/2022</td> -->
+                            </tr>
+                            <tr>
+                                <td>Page Count: 281</td>
+                                <!-- <td>300</td> -->
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-0-06-112008-4</td>
+                                <!-- <td>1234567890</td> -->
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Harper Lee</td>
+                    <td>Fiction, Classic</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td><b>The Great Gatsby</b>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date: 10/04/1925</td>
+                                <!-- <td>01/01/2022</td> -->
+                            </tr>
+                            <tr>
+                                <td>Page Count: 180</td>
+                                <!-- <td>300</td> -->
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-0-7432-7356-5</td>
+                                <!-- <td>1234567890</td> -->
+                            </tr>
+                        </table>
+                    </td>
+                    <td>F. Scott Fitzgerald</td>
+                    <td>Fiction, Classic</td>
+                    <td>Not Available</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td><b>Pride and Prejudice</b>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date: 28/01/1813</td>
+                                <!-- <td>01/01/2022</td> -->
+                            </tr>
+                            <tr>
+                                <td>Page Count: 279</td>
+                                <!-- <td>300</td> -->
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-1-85326-000-1</td>
+                                <!-- <td>1234567890</td> -->
+                            </tr>
+                        </table>
+                    </td>
+                    <td>Jane Austen</td>
+                    <td>Fiction, Romance</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td><b>The Catcher in the Rye</b>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date: 16/07/1951</td>
+                                <!-- <td>01/01/2022</td> -->
+                            </tr>
+                            <tr>
+                                <td>Page Count: 224</td>
+                                <!-- <td>300</td> -->
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-0-316-76948-4</td>
+                                <!-- <td>1234567890</td> -->
+                            </tr>
+                        </table>
+                    </td>
+                    <td>J.D. Salinger</td>
+                    <td>Fiction, Coming-of-age</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>5</td>
+                    <td><b>Harry Potter and the Sorcerer's Stone</b>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date: 26/06/1997</td>
+                                <!-- <td>01/01/2022</td> -->
+                            </tr>
+                            <tr>
+                                <td>Page Count: 309</td>
+                                <!-- <td>300</td> -->
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-0-7475-3269-6</td>
+                                <!-- <td>1234567890</td> -->
+                            </tr>
+                        </table>
+                    </td>
+                    <td>J.K. Rowling</td>
+                    <td>Fantasy</td>
+                    <td>Available</td>
+                </tr>
+
+                <tr>
+                    <td>6</td>
+                    <td><b>The Hobbit</b>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date: 21/09/1937</td>
+                                <!-- <td>01/01/2022</td> -->
+                            </tr>
+                            <tr>
+                                <td>Page Count: 310</td>
+                                <!-- <td>300</td> -->
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-0-395-23313-6</td>
+                                <!-- <td>1234567890</td> -->
+                            </tr>
+                        </table>
+                    </td>
+                    <td>J.R.R. Tolkien</td>
+                    <td>Fantasy, Adventure</td>
+                    <td>Not Available</td>
+                </tr>
+
+                <tr>
+                    <td>7</td>
+                    <td><b>The Lord of the Rings: The Fellowship of the Ring</b>
+                        <table class="nested-table">
+                            <tr>
+                                <td>Publication Date: 29/07/1954</td>
+                                <!-- <td>01/01/2022</td> -->
+                            </tr>
+                            <tr>
+                                <td>Page Count: 423</td>
+                                <!-- <td>300</td> -->
+                            </tr>
+                            <tr>
+                                <td>ISBN: 978-0-618-34641-5</td>
+                                <!-- <td>1234567890</td> -->
+                            </tr>
+                        </table>
+                    </td>
+                    <td>J.R.R. Tolkien</td>
+                    <td>Fantasy, Adventure</td>
+                    <td>Available</td>
+                </tr>
+
+                <!-- Add more rows as needed -->
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Registration Form -->
+    <section id="register">
+        <h2 id="form">Registration Form</h2>
+        <form>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required><br>
+
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="5" max="100" required><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+
+            <label for="confirmPassword">Confirm Password:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</body>
+
+</html>
