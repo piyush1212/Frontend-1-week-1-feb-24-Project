@@ -21,33 +21,19 @@ b{
     top: 0;
 }
 
-a {
+.navbar a {
     float: left;
     display: block;
     color: white;
     text-align: center;
-    padding: 25px 15px;
+    padding: 25px 20px;
     text-decoration: none;
     
 }
 
-nav ul{
-    padding-top: 15px;
-    list-style: none;
-}
-nav ul li{
-    display: inline;
-}
-.right{
-    float: right;
-    padding-right: 30px;
-}
-
-a:hover {
+.navbar a:hover {
     background-color: #ddd;
-    /* color: black; */
-    color: #7aadd4 !important;
-
+    color: black;
 }
 
 /* Styling table */
