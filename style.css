@@ -21,7 +21,7 @@ b{
     top: 0;
 }
 
-.navbar a {
+a {
     float: left;
     display: block;
     color: white;
@@ -43,9 +43,11 @@ nav ul li{
     padding-right: 30px;
 }
 
-.navbar a:hover {
+a:hover {
     background-color: #ddd;
-    color: black;
+    /* color: black; */
+    color: #7aadd4 !important;
+
 }
 
 /* Styling table */
