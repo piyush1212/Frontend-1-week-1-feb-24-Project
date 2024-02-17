@@ -26,9 +26,21 @@ b{
     display: block;
     color: white;
     text-align: center;
-    padding: 25px 20px;
+    padding: 25px 15px;
     text-decoration: none;
     
+}
+
+nav ul{
+    padding-top: 15px;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+.right{
+    float: right;
+    padding-right: 30px;
 }
 
 .navbar a:hover {
