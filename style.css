@@ -19,6 +19,7 @@ b{
     overflow: hidden;
     position: sticky;
     top: 0;
+    padding: 10px;
 }
 
 .navbar a {
@@ -26,14 +27,27 @@ b{
     display: block;
     color: white;
     text-align: center;
-    padding: 25px 20px;
+    padding: 15px 15px;
     text-decoration: none;
     
 }
 
-.navbar a:hover {
+nav ul{
+    padding-top: 5px;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+}
+.right{
+    float: right;
+    padding-right: 10px;
+}
+
+nav a:hover {
     background-color: #ddd;
     color: black;
+    border-radius: 20px;
 }
 
 /* Styling table */
